@@ -24,12 +24,17 @@ login_response_data = login_response.json()
 
 print("Login response:", login_response_data)
 
-auth_user_headers = {
+create_filre_headers = {
     "Authorization": f'Bearer {login_response_data["token"]["accessToken"]}',
 }
 
-delete_user_response = httpx.delete(f"http://127.0.0.1:8000/api/v1/users/{create_user_data['user']['id']}",
-                                    headers=auth_user_headers)
-delete_user_response_data = delete_user_response.json()
+create_file_response = httpx.post(
+    "http://127.0.0.1:8000/api/v1/files",
+    data={"filename": "image.png", "directory": "courses"},
+    files={"upload_file": open("./testdata/files/image.png", "rb")},
+    headers=create_filre_headers,
+)
+create_file_response_json = create_file_response.json()
 
-print("Delete user status code:", delete_user_response.status_code)
+
+print("Create file response:", create_file_response_json)
