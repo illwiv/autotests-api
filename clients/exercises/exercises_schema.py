@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field, ConfigDict
+from tools.fakers import fake
 
 
 class ExerciseSchema(BaseModel):
@@ -30,13 +31,13 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
 
-    title: str
-    course_id: str = Field(alias="courseId")
-    max_score: int = Field(alias="maxScore")
-    min_score: int = Field(alias="minScore")
-    order_index: int = Field(alias="orderIndex")
-    description: str
-    estimated_time: str = Field(alias="estimatedTime")
+    title: str = Field(default_factory=fake.sentence)
+    course_id: str = Field(default_factory=fake.uuid4, alias="courseId")
+    max_score: int = Field(default_factory=fake.max_score, alias="maxScore")
+    min_score: int = Field(default_factory=fake.min_score, alias="minScore")
+    order_index: int = Field(default_factory=fake.integer, alias="orderIndex")
+    description: str = Field(default_factory=fake.sentence)
+    estimated_time: str = Field(default_factory=fake.estimated_time, alias="estimatedTime")
 
 
 class GetExercisesResponseSchema(BaseModel):
@@ -73,9 +74,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
 
-    title: str | None
-    max_score: int | None = Field(alias="maxScore")
-    min_score: int | None = Field(alias="minScore")
-    order_index: int | None = Field(alias="orderIndex")
-    description: str | None
-    estimated_time: str | None = Field(alias="estimatedTime")
+    title: str | None = Field(default_factory=fake.sentence)
+    max_score: int | None = Field(default_factory=fake.max_score, alias="maxScore")
+    min_score: int | None = Field(default_factory=fake.min_score, alias="minScore")
+    order_index: int | None = Field(default_factory=fake.integer, alias="orderIndex")
+    description: str | None = Field(default_factory=fake.sentence)
+    estimated_time: str | None = Field(default_factory=fake.estimated_time, alias="estimatedTime")
