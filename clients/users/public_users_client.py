@@ -1,7 +1,7 @@
 from clients.api_client import APIClient
 from httpx import Response
 from clients.public_http_builder import get_public_http_client
-from clients.users.users_schema import CreateUserResponseSchema, CreatePublicUserRequestSchema
+from clients.users.users_schema import CreateUserResponseSchema, CreateUserRequestSchema
 
 
 class PublicUsersClient(APIClient):
@@ -9,7 +9,7 @@ class PublicUsersClient(APIClient):
     Клиент для работы с /api/v1/users
     """
 
-    def create_user_api(self, request: CreatePublicUserRequestSchema) -> Response:
+    def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод выполняет создание пользователя.
 
@@ -18,7 +18,7 @@ class PublicUsersClient(APIClient):
         """
         return self.post("api/v1/users", json=request.model_dump(by_alias=True))
 
-    def create_user(self, request: CreatePublicUserRequestSchema) -> CreateUserResponseSchema:
+    def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
 
