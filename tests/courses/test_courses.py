@@ -17,7 +17,7 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.courses
 @pytest.mark.regression
 class TestCourses:
-    def test_create_course(self, courses_client: CourseFixture, function_file: FilesFixture,
+    def test_create_course(self, courses_client: CoursesClient, function_file: FilesFixture,
                            function_user: UserFixture):
         request = CreateCourseRequestSchema(preview_file_id=function_file.response.file.id,
                                             created_by_user_id=function_user.response.user.id)
