@@ -22,6 +22,8 @@ class GetExerciseQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка упражнений.
     """
+    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+
     course_id: str = Field(alias="courseId")
 
 
