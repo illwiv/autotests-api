@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAzLjc1OTI5MyIsInVzZXJfaWQiOiJkZDEwMDRlMC0yMThhLTRkMzktYjdhNC0wN2Y1NDg4YzVkZTgifQ.T3B0NM1XnNAr6ne1WkGrWX2HFaHserh06Y6lkXCtihE' \
+ -H content-length: '253' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Common after officer suffer.","maxScore":74,"minScore":20,"description":"Prove house gun support dream.","previewFileId":"cb5657ba-1cfc-40d9-973e-34dfe38bab7f","estimatedTime":"8 weeks","createdByUserId":"dd1004e0-218a-4d39-b7a4-07f5488c5de8"}'

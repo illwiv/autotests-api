@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM4OjU5Ljk5Mzg2MSIsInVzZXJfaWQiOiJiNmYxZDNjYi0zNjU4LTQyNjItODU3Mi1mYWM0MGRmZDZiY2UifQ.S774ZNfkerC_VluvDrlMCaiQ-nysTijdk6x_ufuj9HY' \
+ -H content-length: '247' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Popular seat need.","maxScore":71,"minScore":10,"description":"Movie or develop quickly actually.","previewFileId":"55064ebc-822c-4e20-aeec-ae62671f27d7","estimatedTime":"1 weeks","createdByUserId":"b6f1d3cb-3658-4262-8572-fac40dfd6bce"}'

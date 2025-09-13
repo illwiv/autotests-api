@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAwLjU4NTc4OSIsInVzZXJfaWQiOiI5NWEyNDFhNy1kYmY5LTRiYjktYjE2Yy05MmQ3MDQxNDJhMTgifQ.9F6HS_MaW43B34VpGRb_G7ZN_ly2jxG2LoXBbulQWHw' \
+ -H content-length: '254' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Central success ok.","maxScore":99,"minScore":7,"description":"Seem modern close without security price.","previewFileId":"55a70f0f-daf8-4f75-a305-e3a1babd6f39","estimatedTime":"9 weeks","createdByUserId":"95a241a7-dbf9-4bb9-b16c-92d704142a18"}'

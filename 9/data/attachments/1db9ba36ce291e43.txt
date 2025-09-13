@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAyLjQ0NTEwOSIsInVzZXJfaWQiOiJiZDI1MjgwMC1jM2ZjLTQ2MzYtOGIxNC1mYTkzNDk3ODMyMGMifQ.g0BKInaoDPQl4Jn-BphKtSf99DaH98NllJjPRb7vhf0' \
+ -H content-length: '280' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Raise majority finally business sit institution interview.","maxScore":83,"minScore":17,"description":"Good remember field expert.","previewFileId":"5eddbec7-c7c7-4255-bc59-50f1dfa36060","estimatedTime":"1 weeks","createdByUserId":"bd252800-c3fc-4636-8b14-fa934978320c"}'

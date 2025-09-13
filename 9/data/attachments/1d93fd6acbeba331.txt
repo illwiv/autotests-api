@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAxLjE4OTM2NCIsInVzZXJfaWQiOiJmZmY1NTFjZS05ZDgxLTRjM2YtODhhYS1kYmUwNzRmYzY2ZDQifQ.DppZFVYYEHf64Wa_vBkhjP1fFpsGH6-KKLks0QUgQek' \
+ -H content-length: '286' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Minute paper south provide employee traditional phone road.","maxScore":82,"minScore":3,"description":"Customer we white watch her fear.","previewFileId":"6b449362-737d-440e-b14f-130e41022f04","estimatedTime":"4 weeks","createdByUserId":"fff551ce-9d81-4c3f-88aa-dbe074fc66d4"}'

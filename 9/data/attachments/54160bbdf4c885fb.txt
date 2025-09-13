@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAyLjQ0NTEwOSIsInVzZXJfaWQiOiJiZDI1MjgwMC1jM2ZjLTQ2MzYtOGIxNC1mYTkzNDk3ODMyMGMifQ.g0BKInaoDPQl4Jn-BphKtSf99DaH98NllJjPRb7vhf0' \
+ -H content-length: '235' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Remember character sense to green board kid kitchen.","courseId":"9988e3f4-5e9c-44eb-afc1-c7345ed81f22","maxScore":83,"minScore":29,"orderIndex":7,"description":"Lead really use if watch staff cut.","estimatedTime":"2 weeks"}'

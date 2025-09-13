@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjM5OjAxLjg1Nzc3NiIsInVzZXJfaWQiOiIxODdmOWI5NS0wNzExLTQxNzUtYmExOS00Zjc1OGVlMzY5NTYifQ.2Vogf0Oq9YkoLS6k6mAWeQtf6dbvRCyxLJ79SuEwHXE' \
+ -H content-length: '304' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Relate standard expert suggest information message economic.","maxScore":60,"minScore":15,"description":"Yet explain among century fast office can moment.","previewFileId":"34789d4e-41f9-4936-bb40-eee0f513ece1","estimatedTime":"7 weeks","createdByUserId":"187f9b95-0711-4175-ba19-4f758ee36956"}'
