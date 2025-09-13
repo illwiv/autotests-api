@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI3OjM1LjkwOTY4NCIsInVzZXJfaWQiOiJkZTQ2OWRkNS1iODE5LTQ3ZWMtODc1Ny05MzUxZGY3MTJmMmQifQ.NjEa9nYYKpbvXxkhv_o-hp16CRaiNMtGOl--k3aGQ-k' \
+ -H content-length: '225' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Central whatever exactly shake try civil accept.","courseId":"fa1016d4-8a53-49ca-a1c6-39f20657db09","maxScore":69,"minScore":20,"orderIndex":64,"description":"Sell item call sort improve.","estimatedTime":"5 weeks"}'

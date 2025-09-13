@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI3OjM0LjA3NTI0NSIsInVzZXJfaWQiOiJlMjMyYzdjNi0xMzA5LTRmMTgtYmRhMi02MWJiZjJkNWYyNGYifQ.niW10o7YrgzaKKn-YzGvtsaIvwEeYF0HGmK78UEI070' \
+ -H content-length: '272' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Case might relate paper remember statement there.","maxScore":62,"minScore":14,"description":"Start fear protect business.","previewFileId":"6f0dad1b-f5d1-411a-bfb4-018b594f508a","estimatedTime":"1 weeks","createdByUserId":"e232c7c6-1309-4f18-bda2-61bbf2d5f24f"}'

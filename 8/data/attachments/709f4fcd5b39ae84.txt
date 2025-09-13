@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI3OjM0LjY2NTM1OCIsInVzZXJfaWQiOiI3MWY1M2VjYS00M2E2LTQ3YjEtOWMxNi02MzQzNjBhNTYxMmIifQ.az0wFc9WSbJZ292FtBgpyp5jutZbMF8X5cpDQCTNGrU' \
+ -H content-length: '239' \
+ -H content-type: 'application/json' \
+ -d '{"title":"New leave between its audience small adult.","courseId":"12de2944-a58f-450b-ae7b-d3a771481b01","maxScore":81,"minScore":21,"orderIndex":93,"description":"Four agree catch soldier social million manage.","estimatedTime":"3 weeks"}'

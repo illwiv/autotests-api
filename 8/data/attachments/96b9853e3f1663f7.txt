@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI3OjMyLjU5MTExMyIsInVzZXJfaWQiOiI1ZjdiOWUyYi0yZTJlLTQwZWQtODNhNC0yOTNjMTdlMzY1YjMifQ.qdbeXwDM-XpCsFb9VsNYfXOQ1Gj6akEdh43IqGulZj0' \
+ -H content-length: '253' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Perform good myself kind much.","maxScore":74,"minScore":29,"description":"Edge popular difficult free.","previewFileId":"ddc57754-89dc-4b97-aeba-99cff910523f","estimatedTime":"1 weeks","createdByUserId":"5f7b9e2b-2e2e-40ed-83a4-293c17e365b3"}'

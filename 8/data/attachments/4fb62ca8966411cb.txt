@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjI3OjM3LjIwMTkwOSIsInVzZXJfaWQiOiI1MGEwYjAzZC05NzZmLTQwMTQtOGExOC05Y2JmYWNkODU1ODUifQ.2MN2pBeAUiFPODje9ak4FbgGTVlE1ffaSc3IzP15LIA' \
+ -H content-length: '273' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Save use must travel.","maxScore":71,"minScore":9,"description":"Tell question operation development since nature cultural.","previewFileId":"17dc6a94-59b6-4eee-9c3e-e90bbdcc996a","estimatedTime":"5 weeks","createdByUserId":"50a0b03d-976f-4014-8a18-9cbfacd85585"}'
