@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/46473a85-c4be-4114-aeac-814b53ed0893' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE1OjMzLjQyMDUwOCIsInVzZXJfaWQiOiJhZGNiZTYwZC1jM2QwLTQ5Y2YtOTk4NS00ZWExZTIzZWNjZGYifQ.iMC8nlyy9s1eiJ_BeL6hqR0bIDZQGO9edw0yHll3-aQ' \
+ -H content-length: '165' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Wish newspaper professional claim ever perhaps because.","maxScore":53,"minScore":11,"description":"And here then hair now bar.","estimatedTime":"6 weeks"}'

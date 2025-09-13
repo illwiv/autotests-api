@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE1OjM0LjAwNzI2NiIsInVzZXJfaWQiOiIxZWE2ZmM4My05YmY3LTQ4MDQtOTM1NC0wNGM0MmIwZDg2MDMifQ.2MeNY_784Bd3ecEVXU7_WzNfADPgL0nVLLnV4Rql5qg' \
+ -H content-length: '256' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Since project teacher many.","maxScore":86,"minScore":11,"description":"Keep car identify series probably.","previewFileId":"5e2e9861-8ac3-47ab-84e7-b455394d9433","estimatedTime":"5 weeks","createdByUserId":"1ea6fc83-9bf7-4804-9354-04c42b0d8603"}'

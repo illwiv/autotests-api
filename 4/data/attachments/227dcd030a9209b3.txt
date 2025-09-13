@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/56355b91-c966-48b1-84c5-85a2d676a0af' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE1OjM0LjY4ODMzMyIsInVzZXJfaWQiOiI2MWQyZTg0Yy1iNjhmLTQ2ODEtODFlMS1mOTY2MTJlYzE2MjgifQ.b9Yy3gX1GP_NSQwJBqDPe2d9XqB9-faxO2udkTh784c' \
+ -H content-length: '190' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Ready technology on how authority father training.","maxScore":81,"minScore":1,"orderIndex":22,"description":"Right good effort outside religious above.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE1OjM2LjU2Mjg5MSIsInVzZXJfaWQiOiIzMmRkYWM0MC02Njg3LTQwMGYtYTk5Ny00YjVhNjI4MDY5YTIifQ.T6t9u88N3fAAF_oAogkBIZbOehgs4KuHu-5qCawM_Fo' \
+ -H content-length: '217' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Check drop material.","courseId":"187925ed-1620-41a1-9959-fd8085406c3f","maxScore":63,"minScore":24,"orderIndex":58,"description":"According measure third though attack others no.","estimatedTime":"2 weeks"}'

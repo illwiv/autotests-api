@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE1OjM2LjU2Mjg5MSIsInVzZXJfaWQiOiIzMmRkYWM0MC02Njg3LTQwMGYtYTk5Ny00YjVhNjI4MDY5YTIifQ.T6t9u88N3fAAF_oAogkBIZbOehgs4KuHu-5qCawM_Fo' \
+ -H content-length: '275' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Last actually head my myself.","maxScore":66,"minScore":13,"description":"Get economic affect painting official rather prove.","previewFileId":"0635b880-9c75-482e-9980-8c31cb108f93","estimatedTime":"7 weeks","createdByUserId":"32ddac40-6687-400f-a997-4b5a628069a2"}'
