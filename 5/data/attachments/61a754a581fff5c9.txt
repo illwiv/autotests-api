@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQzLjM3NjkxMCIsInVzZXJfaWQiOiI0NjZhODE1Mi1iMTI0LTRjMjMtYTAxYi1iNGY1NDk3OGQ5NzMifQ.IYWCWAFrveHivbei8pDxiD5uYwZ6j-IIdTs7nm0mO1o' \
+ -H content-length: '282' \
+ -H content-type: 'application/json' \
+ -d '{"title":"White especially role suggest myself big.","maxScore":97,"minScore":20,"description":"Similar these really performance both quickly.","previewFileId":"8184a229-a542-440b-a4bd-f7cb86372094","estimatedTime":"4 weeks","createdByUserId":"466a8152-b124-4c23-a01b-b4f54978d973"}'

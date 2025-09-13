@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQyLjc5MzU2OCIsInVzZXJfaWQiOiI2NTU1YzM1ZS1iZTdkLTRlNTAtOWRmNS04ZGY0YWIzOWQyYWQifQ.cJZbywrQ04URKyUMpA2DufrRRk9kBduzRT1e1A_5zxM' \
+ -H content-length: '252' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Identify majority mind left.","maxScore":81,"minScore":28,"description":"Left pull increase including.","previewFileId":"84de1ad8-1443-4ba4-8c9d-791145561f20","estimatedTime":"9 weeks","createdByUserId":"6555c35e-be7d-4e50-9df5-8df4ab39d2ad"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQxLjI5NjI2OSIsInVzZXJfaWQiOiI4MGZlZGM3Zi1jZjNhLTRlZmUtYmVkZC00ZWZjMzIzZmNkYzYifQ.azMEBApP2RcEbSF748_oEjtFEHmKdEt4fnBKahPsxt0' \
+ -H content-length: '255' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Oil least why me box vote.","maxScore":88,"minScore":16,"description":"Local organization main why catch.","previewFileId":"0507be82-5d41-44c3-8620-22106286c980","estimatedTime":"8 weeks","createdByUserId":"80fedc7f-cf3a-4efe-bedd-4efc323fcdc6"}'

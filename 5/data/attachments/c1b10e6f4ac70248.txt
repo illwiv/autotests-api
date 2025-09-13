@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQyLjIwMzU2NCIsInVzZXJfaWQiOiI3ZmNhNDc3ZS1lNDE5LTRjODItYjM4Mi1iODkxMThhYjNiN2MifQ.7lIYmfc7gY8Igcgm4fwXIpThj8E1Bxe3Ua5xeVRPsRQ' \
+ -H content-length: '252' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Project recent ahead clear.","maxScore":54,"minScore":30,"description":"Because move sea recent local.","previewFileId":"2d2c2962-fcaf-4867-af19-a90a1a7c1d3f","estimatedTime":"9 weeks","createdByUserId":"7fca477e-e419-4c82-b382-b89118ab3b7c"}'

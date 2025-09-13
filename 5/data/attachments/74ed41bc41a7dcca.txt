@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQ0LjA2MTE3NiIsInVzZXJfaWQiOiIyMTgyZDc5YS1lMGE3LTRkMGUtYThlYy1lOWY3MDY4MGE2ZDkifQ.tSGfx6xWL71Uq23Xfip6R3_Ig8Sk3LMjzrtFFG3_Tes' \
+ -H content-length: '252' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Part nice Congress.","maxScore":74,"minScore":28,"description":"Trouble deal measure summer move stay.","previewFileId":"ef85c6b5-9ad2-4df1-83d9-1744c500200b","estimatedTime":"2 weeks","createdByUserId":"2182d79a-e0a7-4d0e-a8ec-e9f70680a6d9"}'

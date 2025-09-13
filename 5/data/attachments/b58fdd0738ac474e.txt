@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjE3OjQ0LjY0NjIyOCIsInVzZXJfaWQiOiJiMjNlYjFhMy0zYmVkLTRhYTMtYTllOS0xZWQ1YjBkZGI3ZDcifQ.EBoWZ4XTpCCBgnTDgV4TXbkqr7sWJQ9SvbQKMj15_Q4' \
+ -H content-length: '248' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Step plant where tonight.","maxScore":89,"minScore":15,"description":"Big by build window prepare.","previewFileId":"6463c7fe-94c5-4cdd-b045-5306891e265c","estimatedTime":"1 weeks","createdByUserId":"b23eb1a3-3bed-4aa3-a9e9-1ed5b0ddb7d7"}'
