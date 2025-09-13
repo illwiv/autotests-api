@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjQwLjM4MDgzMSIsInVzZXJfaWQiOiI4NTY2OTFiOC04YTNkLTRhNjktOGZmYy1mZjU1ODNhMDk2YzUifQ.QyAZj1lafo37W75ORjBowpigKZC5i_hAPpD4-e8P77U' \
+ -H content-length: '261' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Fast study yard everything especially buy.","maxScore":75,"minScore":15,"description":"Crime the attorney item.","previewFileId":"c67161b9-ee63-4d09-ac50-1c6ae01891ad","estimatedTime":"6 weeks","createdByUserId":"856691b8-8a3d-4a69-8ffc-ff5583a096c5"}'

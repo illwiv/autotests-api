@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjM5Ljc5OTk5OSIsInVzZXJfaWQiOiI5Mzk5ZDY5MS0wMDA0LTQ0YWUtYTJjNS0xODA4YTliMTc3YzkifQ.zfMx-OlQOzOMAiX7TiC2DzkfNIbnPJ5tbebEGo31evo' \
+ -H content-length: '254' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Require similar nothing focus.","maxScore":83,"minScore":18,"description":"Scientist accept method wear.","previewFileId":"bc5692be-0d4b-4a4d-8c77-5fe6d658566c","estimatedTime":"1 weeks","createdByUserId":"9399d691-0004-44ae-a2c5-1808a9b177c9"}'

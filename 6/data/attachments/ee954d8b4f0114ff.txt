@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjM3LjIyMDYyNCIsInVzZXJfaWQiOiI4ZmQ3ZWQ5ZC0wN2ViLTQ2M2MtOTI4ZS01MTA5YjAwYTgyMTkifQ.5wOPpt901_duCi_68s1v4r-dt5bGsXoRQ-k0LoLu4J8' \
+ -H content-length: '264' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Meet establish mind stop image finally put.","maxScore":75,"minScore":20,"description":"Matter although role week.","previewFileId":"37ee7eb6-d05d-4b29-b1e3-656a2083eedd","estimatedTime":"4 weeks","createdByUserId":"8fd7ed9d-07eb-463c-928e-5109b00a8219"}'

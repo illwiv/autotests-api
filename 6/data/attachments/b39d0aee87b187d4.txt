@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjM4LjgwOTUxNyIsInVzZXJfaWQiOiJmZGI0YWVkNS05NjZhLTRiZTItYmZlMC04ZDAyMzk2MTQ2NWEifQ.Or9-DsZ1S57wMRQDVYG1NfcBU3EtgCm4xQ4hnckYLHQ' \
+ -H content-length: '284' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Together that music training different.","maxScore":81,"minScore":11,"description":"Wife institution medical there play arm movement.","previewFileId":"2674c03d-5a29-4cf8-8c96-d6d34a451203","estimatedTime":"10 weeks","createdByUserId":"fdb4aed5-966a-4be2-bfe0-8d023961465a"}'

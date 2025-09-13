@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjM3Ljg5MTcyMyIsInVzZXJfaWQiOiJkMjJmODZjZC1kMmZhLTQ1YzMtYTZkOS05Y2RlOTBmMWY0NGMifQ._LOcfIQzcLojsL341q4NWQVfppcGpDLF1eShVKwAiKw' \
+ -H content-length: '220' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Age tonight pattern southern particularly.","courseId":"ec7c6eca-216d-458e-a943-b0922d6f61c5","maxScore":69,"minScore":17,"orderIndex":77,"description":"Before above religious agent.","estimatedTime":"4 weeks"}'

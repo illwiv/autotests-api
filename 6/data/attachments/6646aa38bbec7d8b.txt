@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjI2OjM5LjA4MzY0OCIsInVzZXJfaWQiOiIxMjhmMGMwMC0xM2NkLTQ4YmEtOWYyMi1lZDAzZmQzZWIzMDIifQ.BJLXABGaFyJnH_eKnGOR-suE6u2iRHExw89ziIPoxWM' \
+ -H content-length: '252' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Eight image much.","maxScore":84,"minScore":26,"description":"Available all only support detail focus.","previewFileId":"5ee51a1d-6197-4116-90c6-f8c70c668e96","estimatedTime":"4 weeks","createdByUserId":"128f0c00-13cd-48ba-9f22-ed03fd3eb302"}'
