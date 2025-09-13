@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA3LjY5MTI2MiIsInVzZXJfaWQiOiI4NmY3YjVmZS01YTZkLTQ2ZDUtOGQyYy0xNzY2YjEzYzJlZDYifQ.gHg4HHGegjA0mFCTXmFc8vX2yfUizx2JGzaHzhYVEJ4' \
+ -H content-length: '274' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Organization enter military science season.","maxScore":50,"minScore":24,"description":"Room trade after beautiful side win.","previewFileId":"659648e6-5053-4c9f-9915-891f736e3657","estimatedTime":"8 weeks","createdByUserId":"86f7b5fe-5a6d-46d5-8d2c-1766b13c2ed6"}'

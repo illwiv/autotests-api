@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA0LjUxMjI0MCIsInVzZXJfaWQiOiJjNDdkYmE5OC1jMDUwLTQwNTgtYmMyZS1iNDFmODcwYzYxNDYifQ.8yhdNN7tPaxL-xn_LfP3yIHpCFIJSeS2vJyIUCQoGvc' \
+ -H content-length: '278' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Police check speech dog cut them ok.","maxScore":100,"minScore":15,"description":"Black teach trouble write consider next avoid.","previewFileId":"0046b825-137c-47b0-acda-95109725c346","estimatedTime":"3 weeks","createdByUserId":"c47dba98-c050-4058-bc2e-b41f870c6146"}'

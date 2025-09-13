@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/42db27ae-6f85-41fb-89cf-1a692609cb72' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA0LjUxMjI0MCIsInVzZXJfaWQiOiJjNDdkYmE5OC1jMDUwLTQwNTgtYmMyZS1iNDFmODcwYzYxNDYifQ.8yhdNN7tPaxL-xn_LfP3yIHpCFIJSeS2vJyIUCQoGvc' \
+ -H content-length: '149' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Girl event put moment.","maxScore":68,"minScore":9,"description":"Summer management move still operation want.","estimatedTime":"10 weeks"}'

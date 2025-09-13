@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA1LjExMjM0OCIsInVzZXJfaWQiOiI1ZTdkMWIyNi03MmViLTQzMTktOGZiYi0wOTg5YzM5YzZhZDkifQ.ybR6HxVrAWryOkADtJQvhNWmVKfz-5Rjf3sYF0m5uIU' \
+ -H content-length: '257' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Detail military trip site sign.","maxScore":80,"minScore":1,"description":"Step imagine suffer exist major.","previewFileId":"f8b3c702-a8e4-45ae-9be4-cd2a2e696fdc","estimatedTime":"1 weeks","createdByUserId":"5e7d1b26-72eb-4319-8fbb-0989c39c6ad9"}'

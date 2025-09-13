@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjAzLjkyNTg4OCIsInVzZXJfaWQiOiI3YjkyOTc1Yy03NDRmLTQ5MDgtYTYwOS0zNGRiZThlOTA1YWQifQ.VtAODH_M34KdQ8HCuaGAunzPXagmVHeM25BFMUDx6iE' \
+ -H content-length: '257' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Always sit recent.","maxScore":94,"minScore":6,"description":"To side yeah artist gun audience let forward.","previewFileId":"13649271-20ea-47dd-8a2c-6bd24c5f0039","estimatedTime":"6 weeks","createdByUserId":"7b92975c-744f-4908-a609-34dbe8e905ad"}'

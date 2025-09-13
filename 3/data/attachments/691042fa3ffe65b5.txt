@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA2LjM4MDUyNCIsInVzZXJfaWQiOiJhODljNjdjMy01MGUwLTQ3MzItYmVmZS03YzA4ODJhOWQ3MWYifQ.qgQpXj9TU46Sqwhe3JpBVuBhnjuNp8pWTGaeOo_7xZw' \
+ -H content-length: '248' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Lay first education whatever piece north.","maxScore":50,"minScore":8,"description":"Late boy hot.","previewFileId":"e4c5b1c2-4e6a-4e5b-8a3c-e9d7ef42d443","estimatedTime":"2 weeks","createdByUserId":"a89c67c3-50e0-4732-befe-7c0882a9d71f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA3LjA5NDM2NCIsInVzZXJfaWQiOiJmZmQ2NzFkNS1jMjk5LTRkMGEtOWEyMy0wNzI0YWMxZTQ5MzMifQ.kjOxCVSU30JItujuFGMBz9n07CK7_AhRSox5jfmEOFo' \
+ -H content-length: '217' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Heavy letter until.","courseId":"f7df1d8c-632b-4258-85a5-720d33ff0a08","maxScore":90,"minScore":21,"orderIndex":81,"description":"Method senior charge large describe particularly.","estimatedTime":"9 weeks"}'

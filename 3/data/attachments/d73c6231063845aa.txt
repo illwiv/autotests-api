@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA2LjM4MDUyNCIsInVzZXJfaWQiOiJhODljNjdjMy01MGUwLTQ3MzItYmVmZS03YzA4ODJhOWQ3MWYifQ.qgQpXj9TU46Sqwhe3JpBVuBhnjuNp8pWTGaeOo_7xZw' \
+ -H content-length: '220' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Need loss themselves civil.","courseId":"3375cb9f-493e-4b72-8dbc-6fea097b1571","maxScore":71,"minScore":8,"orderIndex":23,"description":"Face former else debate tell trip smile give.","estimatedTime":"4 weeks"}'

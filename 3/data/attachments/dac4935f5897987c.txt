@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA1Ljc4ODU0MCIsInVzZXJfaWQiOiJlNWZkZTRkZi0zZjc2LTRlOGUtOTkwMi0xOTg1MzMxNTg3Y2MifQ.3x1a23bL8Nnfwg9JhS-FO913hLr85B8slxuLg_9YmgY' \
+ -H content-length: '209' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Hair show nearly various than direction.","courseId":"e77c348e-3a33-4105-9b7a-a0066f494e5a","maxScore":74,"minScore":6,"orderIndex":44,"description":"Under nice nice near.","estimatedTime":"5 weeks"}'

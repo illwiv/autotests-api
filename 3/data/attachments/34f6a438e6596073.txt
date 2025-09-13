@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDEyOjA5OjA1Ljc4ODU0MCIsInVzZXJfaWQiOiJlNWZkZTRkZi0zZjc2LTRlOGUtOTkwMi0xOTg1MzMxNTg3Y2MifQ.3x1a23bL8Nnfwg9JhS-FO913hLr85B8slxuLg_9YmgY' \
+ -H content-length: '269' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Bag later officer five important.","maxScore":86,"minScore":6,"description":"Without trip bring management food couple.","previewFileId":"3a9f5471-47f9-45f1-8c59-dd14abc7b07a","estimatedTime":"5 weeks","createdByUserId":"e5fde4df-3f76-4e8e-9902-1985331587cc"}'
