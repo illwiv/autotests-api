@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE4LjExMjAxMiIsInVzZXJfaWQiOiI3YTJkZDAzZi1jNmM3LTQ3NWYtYWRiZS04N2IwNWM0NjEyNzAifQ.LTn1-yUkDUKqdhr7FARGMrq8UDl0msiBEe9Z06V8xt4' \
+ -H content-length: '268' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Various four who arrive subject.","maxScore":61,"minScore":21,"description":"Training occur join another become small.","previewFileId":"e433ae6f-6bf1-45da-973e-0cec83b4a822","estimatedTime":"1 weeks","createdByUserId":"7a2dd03f-c6c7-475f-adbe-87b05c461270"}'

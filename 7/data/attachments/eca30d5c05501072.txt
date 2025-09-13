@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE4LjY5MjE2MCIsInVzZXJfaWQiOiI1NDcwMjNmMy0zOTQzLTQ3NTEtYTA0NS03OTQ5ZDgxNDliMTQifQ.BIkLMaXER-wARx2_d7ldhCT8R5B_6HJFFAAVIvsvp7g' \
+ -H content-length: '266' \
+ -H content-type: 'application/json' \
+ -d '{"title":"You treatment glass hard partner wait.","maxScore":78,"minScore":7,"description":"Interview concern group push rich.","previewFileId":"83304a8f-d379-4bdf-8c5c-45d6bd73d6a5","estimatedTime":"9 weeks","createdByUserId":"547023f3-3943-4751-a045-7949d8149b14"}'

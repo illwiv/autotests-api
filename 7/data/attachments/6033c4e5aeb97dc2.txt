@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/exercises' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE4LjY5MjE2MCIsInVzZXJfaWQiOiI1NDcwMjNmMy0zOTQzLTQ3NTEtYTA0NS03OTQ5ZDgxNDliMTQifQ.BIkLMaXER-wARx2_d7ldhCT8R5B_6HJFFAAVIvsvp7g' \
+ -H content-length: '236' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Century pick despite eat against issue life member.","courseId":"63ca4e82-0510-468b-af71-cc3050e8645f","maxScore":75,"minScore":13,"orderIndex":68,"description":"Eye plant guess message lawyer sure.","estimatedTime":"4 weeks"}'

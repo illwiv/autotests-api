@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE5LjM5ODUzMCIsInVzZXJfaWQiOiI2MTY5NTI5NC0zYzkwLTRlYjYtYTc0OS1kYjE0NTJlNzk0YTQifQ.cnRUhB22LMO9LzUhnNX4J0eMcfuERv4vtTHmKB6ZfWQ' \
+ -H content-length: '283' \
+ -H content-type: 'application/json' \
+ -d '{"title":"World general check which million fill college make.","maxScore":84,"minScore":14,"description":"Born each truth follow area in when.","previewFileId":"a236476c-1678-4c5a-8b3f-c0564af12d14","estimatedTime":"5 weeks","createdByUserId":"61695294-3c90-4eb6-a749-db1452e794a4"}'

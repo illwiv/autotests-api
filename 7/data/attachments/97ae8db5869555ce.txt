@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/exercises/616d0149-2baf-4bc4-8fdf-2542db7fa507' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE4LjExMjAxMiIsInVzZXJfaWQiOiI3YTJkZDAzZi1jNmM3LTQ3NWYtYWRiZS04N2IwNWM0NjEyNzAifQ.LTn1-yUkDUKqdhr7FARGMrq8UDl0msiBEe9Z06V8xt4' \
+ -H content-length: '163' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Major important weight school father.","maxScore":66,"minScore":14,"orderIndex":68,"description":"Political continue me sure.","estimatedTime":"5 weeks"}'

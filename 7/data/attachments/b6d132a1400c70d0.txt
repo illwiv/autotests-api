@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:22 Make GET request to http://localhost:8000/api/v1/exercises/1cf9b7ee-b209-444e-acb1-5ba3bbeedb88
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/exercises/1cf9b7ee-b209-444e-acb1-5ba3bbeedb88
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:61 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Century pick despite eat against issue life member.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 63ca4e82-0510-468b-af71-cc3050e8645f
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 68
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Eye plant guess message lawyer sure.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

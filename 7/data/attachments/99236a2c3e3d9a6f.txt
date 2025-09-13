@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE5Ljk4NzM3NSIsInVzZXJfaWQiOiI5ODA2N2RkYS1jMzk4LTRmMjMtOWI2MC1hMjQ1NTMzNThmOGEifQ.rLQ6H2EQhPg6vtKS2KBuXrfKtmZ9XQ9hH_Si3lyDNh0' \
+ -H content-length: '274' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Good message indicate born town me.","maxScore":89,"minScore":15,"description":"Add society bank general bring require safe.","previewFileId":"945ae398-e9d0-4736-a54d-da1a982dbcce","estimatedTime":"4 weeks","createdByUserId":"98067dda-c398-4f23-9b60-a24553358f8a"}'

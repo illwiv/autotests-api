@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/99110f90-46b7-4249-8ce8-dbc68541f450' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDE3OjIzOjE2Ljg2NTk4NCIsInVzZXJfaWQiOiJmZjNiYWM3ZC1jZjViLTQ0YWItODFkZS0wYWIwMTM0MGQyZTQifQ.SWoyPRLuMel5SaucqcVbA3tDD-KSoYYY6HvqJgH9GaU' \
+ -H content-length: '140' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Per scientist he yes.","maxScore":94,"minScore":27,"description":"Long one your back mission movement.","estimatedTime":"6 weeks"}'
