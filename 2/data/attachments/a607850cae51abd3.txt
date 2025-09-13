@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM1LjAwMDkxNSIsInVzZXJfaWQiOiJkNjJkYmQwYS1mYTcwLTRlN2ItOWUzMi1iNGZhODA3YWI2NDcifQ.GrzNpWoGQvCzBoLBjWqMRINJ3HFgfZXhCettV2jW91E' \
+ -H content-length: '261' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Structure international board.","maxScore":74,"minScore":17,"description":"Strategy religious purpose subject.","previewFileId":"0657e3c6-b947-4bad-97a5-d4c204a080d3","estimatedTime":"10 weeks","createdByUserId":"d62dbd0a-fa70-4e7b-9e32-b4fa807ab647"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM2Ljk0MzM3MSIsInVzZXJfaWQiOiI1NDU3MzY3Zi01MmQ4LTRhODYtODc4My0xYTU0OTNmNzgxNGUifQ.SuV7XIKytOeS2l7Y508BBfIrDcfKCXNq8LMCHo6mOJI' \
+ -H content-length: '277' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Boy forward Mrs him next major physical.","maxScore":55,"minScore":3,"description":"Although center blue beat such set me role.","previewFileId":"fb7b145f-1adc-4583-9f45-fc7ee12a787b","estimatedTime":"2 weeks","createdByUserId":"5457367f-52d8-4a86-8783-1a5493f7814e"}'

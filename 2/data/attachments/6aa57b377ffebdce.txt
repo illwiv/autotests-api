@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM0LjQxMTU3MCIsInVzZXJfaWQiOiI5MzRkNzRlMy0yZjI3LTQ3NjYtOTI1NC1mZTQ3ZmUwNzZiNzYifQ._xj8Gsnp4ZndOsLt2TEDjp3e80xFbxqM_xDlChrUg4o' \
+ -H content-length: '289' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Recognize huge natural I environmental tonight mouth.","maxScore":89,"minScore":10,"description":"Foot garden operation tell work guy hear.","previewFileId":"7961863c-f68c-46f8-9883-6671a90ce27c","estimatedTime":"9 weeks","createdByUserId":"934d74e3-2f27-4766-9254-fe47fe076b76"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:22 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:22 Make PATCH request to http://localhost:8000/api/v1/courses/c3ad2e2c-0728-48eb-962f-7bb97a1ebd5d
+INFO     HTTP_LOGGER:event_hooks.py:26 Got response 200 OK form http://localhost:8000/api/v1/courses/c3ad2e2c-0728-48eb-962f-7bb97a1ebd5d
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:23 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Police through act year sense list coach.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 55
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Operation even stand single physical.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

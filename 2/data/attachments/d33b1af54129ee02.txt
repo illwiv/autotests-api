@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+ 'http://localhost:8000/api/v1/courses/c3ad2e2c-0728-48eb-962f-7bb97a1ebd5d' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM0LjQxMTU3MCIsInVzZXJfaWQiOiI5MzRkNzRlMy0yZjI3LTQ3NjYtOTI1NC1mZTQ3ZmUwNzZiNzYifQ._xj8Gsnp4ZndOsLt2TEDjp3e80xFbxqM_xDlChrUg4o' \
+ -H content-length: '160' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Police through act year sense list coach.","maxScore":55,"minScore":7,"description":"Operation even stand single physical.","estimatedTime":"4 weeks"}'

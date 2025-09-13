@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM3LjUzMTgxOCIsInVzZXJfaWQiOiI1ODIyMGFlZS1hMWFmLTRjNDMtYTJjYi0wNWRkN2RlNzkyODkifQ.OWnvOg475NKTWRQUDa_0yJMsW5WPwX54SLmZs48_3fc' \
+ -H content-length: '263' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Seek them young.","maxScore":97,"minScore":10,"description":"Probably speech woman hundred must red various say.","previewFileId":"c3743111-1bbc-41af-9d64-df249e4f1556","estimatedTime":"10 weeks","createdByUserId":"58220aee-a1af-4c43-a2cb-05dd7de79289"}'

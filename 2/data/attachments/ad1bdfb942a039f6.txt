@@ -1,0 +1,11 @@
+curl -X 'POST' \
+ 'http://localhost:8000/api/v1/courses' \
+ -H host: 'localhost:8000' \
+ -H accept: '*/*' \
+ -H accept-encoding: 'gzip, deflate' \
+ -H connection: 'keep-alive' \
+ -H user-agent: 'python-httpx/0.28.1' \
+ -H authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEzVDExOjU4OjM1LjY3MzM5NSIsInVzZXJfaWQiOiI4NjgxMjk1MC00MTNhLTRiMDQtOWViMS1lYmMxNTdjNGIxN2UifQ.6zvjjOCJ3kMcRVYfLK5mmmfX407BLvdeWaxJ4pMFluU' \
+ -H content-length: '283' \
+ -H content-type: 'application/json' \
+ -d '{"title":"Dark important special necessary loss its together.","maxScore":81,"minScore":25,"description":"Growth experience nature behind wish.","previewFileId":"06e27302-9680-4bb3-b470-67d2251085f5","estimatedTime":"8 weeks","createdByUserId":"86812950-413a-4b04-9eb1-ebc157c4b17e"}'
